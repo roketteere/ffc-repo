@@ -1,0 +1,104 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: rgb(82, 167, 222);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+.title{
+    padding: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.222);
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(218, 208, 76);
+    text-shadow: 2px 2px black;
+}
+.start{
+    padding: 5px 5px 15px 5px;
+    margin: 3px 3px 9px 3px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgb(132, 131, 136);
+    color: white;
+    text-shadow: 3px 3px black;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+#start:hover{
+    background-color: rgb(205, 131, 60);
+    color: rgb(218, 208, 76);
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    box-shadow: 0 0 3px 3px rgb(218, 208, 76);
+}
+.quiz-container{
+    background-color: rgba(0, 0, 0, 0.402);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+
+.question{
+    background-color: chocolate;
+    border: 1.5px solid black;
+    color: rgb(218, 208, 76);
+    text-shadow: 2px 2px black;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding:16px 4px 16px 4px;
+    margin:3px;
+    border-radius: 8px;
+}
+.answer{
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(132, 131, 136);
+    color: white;
+    text-shadow: 3px 3px black;
+    border: 3px solid black;
+    
+}
+.answer:hover{
+    background-color: rgb(205, 131, 60);
+    color: rgb(218, 208, 76);
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+    box-shadow: 0 0 3px 3px rgb(218, 208, 76);
+}
+.timer-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 3px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    background-color: black;
+    width: max-content;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.info-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: aquamarine;
+    margin: 3px;
+    padding: 2px;
+}
