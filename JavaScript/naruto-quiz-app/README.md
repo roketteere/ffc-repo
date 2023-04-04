@@ -4,5 +4,5 @@
 ![Dev Preview](./assets/screenshot.png)
 ![Desktop View Hidden](./assets/desktop-view-hidden.png)
 ![Desktop View Hover](./assets/desktop-view-hover-hidden.png)
-<img src="./assets/mobile-view-hidden.png"  width="60%" height="60%" alt="Mobile View Hidden">
-<img src="./assets/mobile-view-hover-hidden.png"  width="60%" height="60%" alt="Mobile View Hover">
+<img src="./assets/mobile-view-hidden.png"  width="40%" height="40%" alt="Mobile View Hidden">
+<img src="./assets/mobile-view-hover-hidden.png"  width="40%" height="40%" alt="Mobile View Hover">
