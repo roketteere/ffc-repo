@@ -56,8 +56,9 @@ body{
 }
 /* Display the quiz container flex and column to stack our elements flex and fill along with wrap each item inside */
 .quiz-container{
-    background-color: rgba(0, 0, 0, 0.402);
     display: flex;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.402);
     flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
@@ -99,14 +100,17 @@ body{
 }
 /* For the timer, we set it to a display of flex and column to stack our timer. Notice no flex:1 here so it doesn't take up all the remaining space. Controlling the amount it can group for a smaller tighter count down timer. Also used text and other properties of flex container and just plain text centering to get it right in the middle */
 .timer-container{
-    display: flex;
     flex-direction: column;
+    display: none;
     color: white;
     margin: 3px;
     padding: 2px;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+#timer{
+    display: none;
 }
 /* Basic styling for the element holding the actual value of the timer. Above is the container holding the timer and this is the actual <h> element holding the value of time */
 .timer{
@@ -120,6 +124,7 @@ body{
 /* display the info-container holding the score and initials into flex column so they stack instead of side by side and basic styling */
 .info-container{
     display: flex;
+    display: none;
     flex: 1;
     flex-direction: column;
     background-color: rgb(114, 114, 104);
@@ -148,3 +153,27 @@ body{
     box-shadow: 0 0 3px 3px rgb(0, 0, 0);
     margin: 10px 3px 2px 3px;
 }
+
+/* Added our media query to resize and make our elements responsive */
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: rgb(65, 157, 219);
+    }
+    /* resize all of our contianers include the start button below to make it responsive */
+    .quiz-container, .timer-container, .info-container{
+        
+        width:60%;
+        align-self: center;
+
+    }
+    .start{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content:space-around;
+        margin-left:20%;
+        margin-right: 20%;
+        text-align: center;
+
+    }
+  }
