@@ -33,7 +33,7 @@ body{
     text-shadow: 2px 2px black;
 }
 /* Nothing fancy just simple styling rules to the start button */
-.start{
+.start, .stop{
     padding: 5px 5px 15px 5px;
     margin: 3px 3px 9px 3px;
     font-size: 2.5rem;
@@ -109,9 +109,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-#timer{
-    display: none;
-}
 /* Basic styling for the element holding the actual value of the timer. Above is the container holding the timer and this is the actual <h> element holding the value of time */
 .timer{
     background-color: black;
@@ -161,19 +158,17 @@ body{
     }
     /* resize all of our contianers include the start button below to make it responsive */
     .quiz-container, .timer-container, .info-container{
-        
         width:60%;
         align-self: center;
 
     }
     .start{
-        display: flex;
+        display:flex;
         flex-direction: column;
         flex: 1;
         justify-content:space-around;
         margin-left:20%;
         margin-right: 20%;
         text-align: center;
-
     }
   }
