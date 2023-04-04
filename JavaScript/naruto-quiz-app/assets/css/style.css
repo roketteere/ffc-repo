@@ -156,6 +156,9 @@ body{
     body {
       background-color: rgb(65, 157, 219);
     }
+    .title{
+        font-size: 4rem;
+    }
     /* resize all of our contianers include the start button below to make it responsive */
     .quiz-container, .timer-container, .info-container{
         width:60%;
